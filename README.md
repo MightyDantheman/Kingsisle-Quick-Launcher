@@ -2,12 +2,12 @@
 
 **KI Quick Launcher** is an unofficial fan-made tool that lets you quickly launch the main KingsIsle games:
 
-- Wizard101
-- Pirate101
+- [Wizard101](https://www.wizard101.com/)
+- [Pirate101](https://www.pirate101.com/)
 
-Instead of opening the official launcher and having to have your game files scanned every single time, which will take longer the more game files you have installed, you can use this tool to bypass the main launcher and load directly into the game.
+Instead of opening the official launcher and having to have your game files scanned every single time, which will take longer the more game files that you have installed, you can use this tool to bypass the main launcher and load directly into the game.
 
-This tool is designed for the Windows operating system.
+> This tool is designed for the Windows operating system.
 
 This tool launches the graphical client with special parameters `-r` and `-L`, which will skip the launcher and connect to the appropriate server. This tool will then automatically log you in. While all of this could be done manually, the login area does not allow you to paste anything, which can make long and complex passwords difficult. This tool is an all-in-one solution.
 
