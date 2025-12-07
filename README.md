@@ -15,7 +15,8 @@ The tool will save a `.txt` file in the same folder that the `.exe` or `.py` fil
 
 > ⚠️ **Important:** This tool does **not** replace the official launcher. If the game has recently updated, you **must** run the official launcher first so it can patch your files. Trying to launch out-of-date game files may cause errors or prevent you from connecting.
 >
-> This tool also requires that you have the default Shortcuts in the Start Menu: `%APPDATA%\Microsoft\Windows\Start Menu\Programs\KingsIsle Entertainment`
+> This tool also requires that you have the default Shortcuts in the Start Menu:
+> `%APPDATA%\Microsoft\Windows\Start Menu\Programs\KingsIsle Entertainment`
 
 ---
 
