@@ -25,14 +25,14 @@ The tool will save a `.txt` file in the same folder that the `.exe` or `.py` fil
    *(This part will be skipped if you only have one game installed.)*
    
    <p align="center">
-     <img src="images/KI Quick-Launcher - Game Selection.png" width="588">
+     <img src="images/KI Quick-Launcher - Game Selection.png" width="441">
    </p>
 
 2. After selecting a game, you'll be able to select the correct server and login:
 
    <p align="center">
-     <img src="images/KI Quick-Launcher - Wizard101.png" width="451">
-     <img src="images/KI Quick-Launcher - Pirate101.png" width="451">
+     <img src="images/KI Quick-Launcher - Wizard101.png" width="338">
+     <img src="images/KI Quick-Launcher - Pirate101.png" width="338">
    </p>
 
 ---
