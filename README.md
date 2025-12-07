@@ -41,7 +41,7 @@ The tool will save a `.txt` file in the same folder that the `.exe` or `.py` fil
 
 You can download the latest version from the **Releases** page:
 
-👉 [Download the latest release](./releases)
+👉 [Download the latest release](/releases)
 
 Or directly download the `.exe` from the latest release on the right-hand side of this page.
 
