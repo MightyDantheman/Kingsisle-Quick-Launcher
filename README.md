@@ -76,6 +76,8 @@ This project is open source. You can browse the code in the [`src/`](./src) dire
 
 Direct images or icons will not be provided.
 
+The script will run without any of the other assets, however, that will obviously not produce the the intended appearance.
+
 If building the tool yourself, this is what the folder should look like:
 
 ```text
