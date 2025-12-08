@@ -58,9 +58,17 @@ The executable has been scanned and checked with VirusTotal.
 
 - VirusTotal report: [View scan results](https://www.virustotal.com/gui/file/2d089166868ee23d1540fa7061b7fce648d9604d68cb2844ccda49676eb07eaa)
 
+> Note: Antivirus results can vary over time and by vendor. Always verify downloads from the official GitHub releases and scan them with your own antivirus if you have any doubts.
+
 - The source python script's report: [View scan results](https://www.virustotal.com/gui/file/241b39e5769723048b71676d3572e49a645f3f1d07723392c1170d695a6d706a)
 
-> Note: Antivirus results can vary over time and by vendor. Always verify downloads from the official GitHub releases and scan them with your own antivirus if you have any doubts.
+> <img src="images/Smart Icon.png" width="16"> **Code insights** *(directly from VirusTotal)*
+>
+> This code functions as a GUI-based launcher primarily for specific online games on Windows. It identifies installed game client executables by resolving Windows shortcut files (`.lnk`) via PowerShell. It then presents a `tkinter` user interface that allows the user to select a game, enter login credentials (username and password), and choose a game server.
+> 
+> Credentials provided by the user can be stored locally in a file named `creds.txt` within the script's directory. These stored credentials are obfuscated using a simple XOR cipher with a fixed key, followed by Base64 encoding. The code loads these obfuscated credentials on subsequent runs.
+> 
+> Upon user initiation, the launcher executes the selected game client process with specific command-line arguments. Following game launch, the launcher uses Windows API calls (`ctypes`) to perform automated actions: it detects when the game window becomes the foreground, attempts to bring it into focus, and then monitors screen pixels to detect a fullscreen black state. Subsequently, it simulates keyboard input to type the stored or entered username, presses the TAB key, types the password, and then presses ENTER, effectively automating the login process within the game's interface. During this automated input sequence, the launcher's own graphical interface is temporarily hidden. The code includes multiple checks and error handling for file operations and API calls. It is specifically designed for the Windows operating system.
 
 ---
 
